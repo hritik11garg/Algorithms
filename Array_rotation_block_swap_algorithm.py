@@ -26,7 +26,7 @@ def swap(array, fi, si, shift_by):
         temp = array[fi + i];
         array[fi + i] = array[si + i];
         array[si + i] = temp;
- 
+
 # Driver Code
 if __name__ == '__main__':
     array = [1, 2, 3, 4, 5, 6, 7];
